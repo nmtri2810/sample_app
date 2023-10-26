@@ -1,0 +1,34 @@
+vi:
+  base_title: "Hướng dẫn Ruby On Rails"
+  layouts:
+    header:
+      title: "Ứng dụng mẫu"
+      home: "Trang chủ"
+      help: "Hỗ trợ"
+      login: "Đăng nhập"
+    languages:
+      en: "Tiếng Anh"
+      vn: "Tiếng Việt"
+  static_pages:
+    home:
+      title_home: "TRANG CHỦ"
+      title: "Ứng dụng mẫu"
+      content_first: "Đây là trang chủ của ứng dụng mẫu"
+      text_link: "Hướng dẫn về Ruby On Rails"
+      content_last: "."
+    help:
+      title: "Hỗ trợ"
+      content1: "Cần hỗ trợ về Ruby On Rails? Truy cập"
+      text_link_help: "Hỗ trợ về Ruby On Rails"
+      content2: "Cần hỗ trợ về ứng dụng này, truy cập"
+      text_link_book: "sách hướng dẫn về Ruby On Rails"
+  new_action: "Hành động mới"
+  edit_action: "Hành động chỉnh sửa"
+  demo_partials:
+    form:
+      zone_label: "Khu vực"
+      date_label: "Ngày"
+    edit:
+      title: "Khu vực chỉnh sửa"
+    new:
+      title: "Khu vực mới"
