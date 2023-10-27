@@ -32,3 +32,31 @@ vi:
       title: "Khu vực chỉnh sửa"
     new:
       title: "Khu vực mới"
+  activerecord:
+    models:
+      user: "người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+        date_of_birth: "Ngày sinh"
+        gender: "Giới tính"
+        gender_male: "Nam"
+  male: "Nam"
+  female: "Nữ"
+  others: "Khác"
+  users:
+    new:
+      sign_up: "Đăng ký"
+      submit: "Tạo tài khoản"
+    show:
+      created_at: "Tạo ngày"
+      updated_at: "Chỉnh sửa ngày"
+  shared:
+    error_messages:
+      error: "Biểu mẫu có"
+      error_count: "lỗi"
+  create_success: "Người dùng được tạo thành công"
+  user_not_found: "Không tìm thấy người dùng"
