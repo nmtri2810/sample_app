@@ -108,3 +108,8 @@ input[type="radio"] {
 .field_with_errors {
   display: inline;
 }
+
+/* Dropdown menu */
+.dropdown-menu.active {
+  display: block;
+}

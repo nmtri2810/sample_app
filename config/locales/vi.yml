@@ -5,6 +5,11 @@ vi:
       title: "Ứng dụng mẫu"
       home: "Trang chủ"
       help: "Hỗ trợ"
+      users: "Người dùng"
+      account: "Quản lý tài khoản"
+      profile: "Tài khoản"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
       login: "Đăng nhập"
     languages:
       en: "Tiếng Anh"
@@ -60,3 +65,11 @@ vi:
       error_count: "lỗi"
   create_success: "Người dùng được tạo thành công"
   user_not_found: "Không tìm thấy người dùng"
+  sessions:
+    new:
+      log_in: "Đăng nhập"
+      email: "Email của bạn"
+      password: "Mật khẩu"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+  invalid_email_password: "Email hoặc mật khẩu không đúng"
