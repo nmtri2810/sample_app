@@ -73,3 +73,4 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
   invalid_email_password: "Email hoặc mật khẩu không đúng"
+  remember_me: "Lưu đăng nhập trên máy này"
