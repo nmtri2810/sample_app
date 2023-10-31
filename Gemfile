@@ -47,6 +47,10 @@ gem "bootstrap-sass", "3.4.1"
 gem "config"
 # pry
 gem "pry"
+# faker
+gem "faker"
+# pagy
+gem "pagy"
 # Use Sass to process CSS
 gem "sassc-rails"
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html]

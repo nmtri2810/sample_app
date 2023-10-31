@@ -1,0 +1,39 @@
+<%= form_for @user, url: url, data: {turbo: false} do |f| %>
+  <%= render "shared/error_messages" %>
+  <div class="form-group">
+    <%= f.label :name %>
+    <%= f.text_field :name, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :email %>
+    <%= f.email_field :email, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :password %>
+    <%= f.password_field :password, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :date_of_birth %>
+    <%= f.date_field :date_of_birth, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= f.label :gender %>
+    <div class="form-check">
+      <%= f.radio_button :gender, "male" %>
+      <%= f.label :gender_male, t("male")%>
+    </div>
+    <div class="form-check">
+      <%= f.radio_button :gender, "female" %>
+      <%= f.label :gender_female, t("female") %>
+    </div>
+    <div class="form-check">
+      <%= f.radio_button :gender, "others" %>
+      <%= f.label :gender_others, t("others") %>
+    </div>
+  </div>
+  <%= f.submit submit_text, class: "btn btn-primary" %>
+<% end %>
