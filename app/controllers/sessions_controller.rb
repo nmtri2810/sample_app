@@ -6,6 +6,7 @@ class SessionsController < ApplicationController
     if user&.authenticate params.dig(:session, :password)
       # Log the user in and redirect to the user's show page.
       log_in user
+      params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
       redirect_to user
     else
       # Create an error message.
