@@ -14,6 +14,7 @@ Rails.application.routes.draw do
     get "/signup", to: "users#new"
     post "/signup", to: "users#create"
     resources :users, except: %i(new create)
+    resources :account_activations, only: :edit
     # Defines the root path route ("/")
     root "static_pages#home"
   end
