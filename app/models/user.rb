@@ -1,10 +1,14 @@
 class User < ApplicationRecord
   before_save :downcase_email
 
+  scope :sorted_by_name, ->{order(name: :asc)}
+
   validates :name, presence: true, length: {maximum: Settings.name_max_length}
   validates :email, presence: true,
             length: {maximum: Settings.email_max_length},
             format: Settings.valid_email_regex, uniqueness: true
+  validates :password, presence: true, length: {minimum: Settings.password_min},
+            allow_nil: true
   validates :date_of_birth, presence: true
   validates :gender, presence: true
 
