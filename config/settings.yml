@@ -4,3 +4,4 @@ email_max_length: 255
 password_min: 6
 items_pagination: 10
 avatar_size: 50
+password_reset_expired_time: 2
