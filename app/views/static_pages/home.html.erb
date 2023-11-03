@@ -1,7 +1,25 @@
 <% provide :title, t(".title_home") %>
-<h1><%= t ".title"%></h1>
-<p>
-  <%= t ".content_first" %>
-  <%= link_to "#{t ".text_link"}" , "http://www.railstutorial.org/" %>
-  <%= t ".content_last" %>
-</p>
+
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render "shared/user_info" %>
+      </section>
+      <section class="micropost_form">
+        <%= render "shared/micropost_form" %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3><%= t "micropost_feed" %></h3>
+      <%= render "shared/feed" %>
+    </div>
+  </div>
+<% else %>
+  <h1><%= t ".title"%></h1>
+  <p>
+    <%= t ".content_first" %>
+    <%= link_to "#{t ".text_link"}" , Settings.rails_tutorial_link %>
+    <%= t ".content_last" %>
+  </p>
+<% end %>

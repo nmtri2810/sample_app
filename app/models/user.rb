@@ -15,6 +15,8 @@ class User < ApplicationRecord
 
   has_secure_password
 
+  has_many :microposts, dependent: :destroy
+
   attr_accessor :remember_token, :activation_token, :reset_token
 
   class << self
@@ -68,6 +70,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.password_reset_expired_time.hours.ago
+  end
+
+  def feed
+    microposts
   end
 
   private
