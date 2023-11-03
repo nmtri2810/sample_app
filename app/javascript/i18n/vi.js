@@ -76671,6 +76671,9 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   },
   "female": "Nữ",
   "flash_check_email": "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản.",
+  "follow": "Theo dõi",
+  "followers": "Người theo dõi",
+  "following": "Đang theo dõi",
   "helpers": {
     "select": {
       "prompt": "Vui lòng chọn"
@@ -76835,6 +76838,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   "layouts": {
     "header": {
       "account": "Quản lý tài khoản",
+      "en": "Tiếng Anh",
       "help": "Hỗ trợ",
       "home": "Trang chủ",
       "login": "Đăng nhập",
@@ -76842,10 +76846,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
       "profile": "Tài khoản",
       "settings": "Cài đặt",
       "title": "Ứng dụng mẫu",
-      "users": "Người dùng"
-    },
-    "languages": {
-      "en": "Tiếng Anh",
+      "users": "Người dùng",
       "vn": "Tiếng Việt"
     }
   },
@@ -76939,6 +76940,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
   "post": "Đăng bài",
   "posted": "Đăng",
   "profile_view": "Xem trang cá nhân của tôi",
+  "relationship_not_found": "Không tìm thấy mối quan hệ giữa 2 người dùng",
   "remember_me": "Lưu đăng nhập trên máy này",
   "sessions": {
     "new": {
@@ -76990,6 +76992,7 @@ I18n.translations["vi"] = I18n.extend((I18n.translations["vi"] || {}), {
     "pm": "chiều"
   },
   "title": "Ứng dụng mẫu",
+  "unfollow": "Hủy theo dõi",
   "update_success": "Cập nhật thành công",
   "update_title_user": "Chỉnh sửa thông tin",
   "user_inactivated": "Người dùng chưa được kích hoạt!",

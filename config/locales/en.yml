@@ -11,7 +11,6 @@ en:
       settings: "Settings"
       logout: "Logout"
       login: "Log in"
-    languages:
       en: "English"
       vn: "Vietnamese"
   static_pages:
@@ -108,3 +107,8 @@ en:
   post: "Post"
   ago: "ago."
   profile_view: "View my profile"
+  following: "Following"
+  followers: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  relationship_not_found: "Relationship not found"

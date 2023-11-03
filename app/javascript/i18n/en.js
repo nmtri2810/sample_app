@@ -77081,6 +77081,9 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   },
   "female": "Female",
   "flash_check_email": "Please check your email to activate your account.",
+  "follow": "Follow",
+  "followers": "Followers",
+  "following": "Following",
   "helpers": {
     "select": {
       "prompt": "Please select"
@@ -77108,6 +77111,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   "layouts": {
     "header": {
       "account": "Account",
+      "en": "English",
       "help": "Help",
       "home": "Home",
       "login": "Log in",
@@ -77115,10 +77119,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
       "profile": "Profile",
       "settings": "Settings",
       "title": "Sample App",
-      "users": "Users"
-    },
-    "languages": {
-      "en": "English",
+      "users": "Users",
       "vn": "Vietnamese"
     }
   },
@@ -77212,6 +77213,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
   "post": "Post",
   "posted": "Posted",
   "profile_view": "View my profile",
+  "relationship_not_found": "Relationship not found",
   "remember_me": "Remember me on this computer",
   "sessions": {
     "new": {
@@ -77263,6 +77265,7 @@ I18n.translations["en"] = I18n.extend((I18n.translations["en"] || {}), {
     "pm": "pm"
   },
   "title": "Sample App",
+  "unfollow": "Unfollow",
   "update_success": "User successfully updated",
   "update_title_user": "Update your profile",
   "user_inactivated": "User is inactivated!",
