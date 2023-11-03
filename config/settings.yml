@@ -5,3 +5,8 @@ password_min: 6
 items_pagination: 10
 avatar_size: 50
 password_reset_expired_time: 2
+content_max_length: 140
+image_size: 500
+image_mb: 5
+image_format: image/jpeg,image/gif,image/png
+rails_tutorial_link: http://www.railstutorial.org/
