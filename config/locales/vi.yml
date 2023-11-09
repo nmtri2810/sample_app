@@ -11,7 +11,6 @@ vi:
       settings: "Cài đặt"
       logout: "Đăng xuất"
       login: "Đăng nhập"
-    languages:
       en: "Tiếng Anh"
       vn: "Tiếng Việt"
   static_pages:
@@ -120,3 +119,8 @@ vi:
   post: "Đăng bài"
   ago: "trước."
   profile_view: "Xem trang cá nhân của tôi"
+  following: "Đang theo dõi"
+  followers: "Người theo dõi"
+  follow: "Theo dõi"
+  unfollow: "Hủy theo dõi"
+  relationship_not_found: "Không tìm thấy mối quan hệ giữa 2 người dùng"

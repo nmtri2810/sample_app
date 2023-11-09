@@ -4,6 +4,7 @@ email_max_length: 255
 password_min: 6
 items_pagination: 10
 avatar_size: 50
+avatar_size_small: 30
 password_reset_expired_time: 2
 content_max_length: 140
 image_size: 500
